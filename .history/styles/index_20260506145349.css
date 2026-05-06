@@ -1,4 +1,4 @@
-.topbar{
+.navbar{
     position:fixed;
     top:0;
     width:100%;
@@ -15,10 +15,8 @@
 
 .hero{
     height: 100vh;
-    width:100%;
 
-   background: url(../assets/images/Liurnia.jpg);
-    background-size:cover;
+    background-image:url(../assets/images/Liurnia.jpg);
     display:flex;
     justify-content: center;
     align-items: center;

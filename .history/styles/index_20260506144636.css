@@ -1,0 +1,25 @@
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:  0.75rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    z-index: 10;
+}
+.navlinks{
+    display:none;
+}
+
+.hero{
+    height: 100vh;
+
+    background-image:url(../assets/images/Liurnia.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+}   
