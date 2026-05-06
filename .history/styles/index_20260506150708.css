@@ -6,13 +6,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgba(0,0,0,0.4);
-    backdrop-filter:blur(4px);
     color:white;
     z-index: 10;
+
+    background:rgba(0,0,0,0.5);
 }
 .navlinks{
     display:none;
+    font-size:1.1rem;
+    font-weight:500;
 }
 
 .hero{
@@ -58,12 +60,13 @@
 }
 
 @media (min-width:768px) {
-    .topbar{
-        padding: 1rem 10rem;
+    .navbar{
+        padding: 1rem 2.5rem;
+        background: rgba(0,0,0,0.5);
     }
     .navlinks{
         display:flex;
-        gap: 36.5rem;
+        gap: 2rem;
         list-style:none;
     }
     .overlay{

@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgba(0,0,0,0.4);
-    backdrop-filter:blur(4px);
+    background:rgba(0,0,0,0.5);
+    backdrop-filter:blur(8px);
     color:white;
     z-index: 10;
 }
@@ -59,11 +59,11 @@
 
 @media (min-width:768px) {
     .topbar{
-        padding: 1rem 10rem;
+        padding: 1rem 2.5rem;
     }
     .navlinks{
         display:flex;
-        gap: 36.5rem;
+        gap: 2rem;
         list-style:none;
     }
     .overlay{

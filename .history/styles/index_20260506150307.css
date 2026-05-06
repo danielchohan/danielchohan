@@ -6,9 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgba(0,0,0,0.4);
-    backdrop-filter:blur(4px);
-    color:white;
+    color:rgba(0,0,0,0.7);
     z-index: 10;
 }
 .navlinks{
@@ -58,12 +56,12 @@
 }
 
 @media (min-width:768px) {
-    .topbar{
-        padding: 1rem 10rem;
+    .navbar{
+        padding: 1rem 2.5rem
     }
     .navlinks{
         display:flex;
-        gap: 36.5rem;
+        gap:1.5rem;
         list-style:none;
     }
     .overlay{
