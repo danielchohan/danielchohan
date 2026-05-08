@@ -33,7 +33,7 @@ body{
     position:fixed;
     top:0;
     width:100%;
-    padding:  1rem 2rem;
+    padding:  4rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@ body{
 @media (min-width:768px) {
         .navlinks{
         display:flex;
+        gap: 36.5rem;
         list-style:none;
-        gap:3rem;
     }
 }
