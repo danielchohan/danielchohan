@@ -48,17 +48,6 @@ body{
 .navlinks{
     display:none;
 }
-.navlinks.active{
-    display:flex;
-    flex-direction: column;
-    position:absolute;
-    list-style: none;
-    top:100%;
-    right:0;
-    width:100%;
-    background:rgba(0,0,0,0.4);
-    text-align: center;
-}
 
 .navlinks a{
     color: white;
@@ -78,20 +67,9 @@ body{
     border-radius: 2rem;;
 }
 @media (min-width:768px) {
-    .burgerbar{
-        display:none;
-    }
-    .navlinks{
+        .navlinks{
         display:flex;
-        list-style: none;
+        list-style:none;
         gap:3rem;
-    }
-}
-@media(min-width:1024px){
-    .navlinks{
-        gap:4rem;
-    }
-    .logo{
-        font-size:1.8rem;
     }
 }

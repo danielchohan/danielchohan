@@ -53,9 +53,6 @@ iframe{
   .sidebar{
     width:30%;
   }
-  .sidebar a:last-child{
-    grid-column:span 2;
-  }
   .mainview{
     width:70%;
   }

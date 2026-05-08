@@ -48,17 +48,6 @@ body{
 .navlinks{
     display:none;
 }
-.navlinks.active{
-    display:flex;
-    flex-direction: column;
-    position:absolute;
-    list-style: none;
-    top:100%;
-    right:0;
-    width:100%;
-    background:rgba(0,0,0,0.4);
-    text-align: center;
-}
 
 .navlinks a{
     color: white;
@@ -94,4 +83,6 @@ body{
     .logo{
         font-size:1.8rem;
     }
+
+
 }

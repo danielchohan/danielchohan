@@ -6,8 +6,8 @@
 
 .sidebar{
   display:grid;
-  grid-template-columns: 1fr;
-  gap:1rem;
+  grid-template-columns: 1fr 1fr;
+  gap:0.5rem;
 }
 .sidebar img{
   width:100%;
@@ -39,7 +39,6 @@ iframe{
   }
   .sidebar{
     width:35%;
-    grid-template-columns: 1fr 1fr;
   }
   .mainview{
     width:65%;
@@ -52,9 +51,6 @@ iframe{
 @media(min-width:1024px){
   .sidebar{
     width:30%;
-  }
-  .sidebar a:last-child{
-    grid-column:span 2;
   }
   .mainview{
     width:70%;
