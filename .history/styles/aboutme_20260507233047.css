@@ -1,3 +1,16 @@
+.topbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:  4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(4px);
+    color:white;
+    z-index: 10;
+}
 
 .aboutcontainer{
     min-height:100vh;
@@ -9,14 +22,13 @@
     padding-right:2rem;
     padding-bottom:2rem;
 }
-
 .aboutpage{
     align-items:flex-start;
 }
 
 .aboutoverlay{
     width:100%;
-    max-width:70rem;
+    min-height:100vh;
     background:rgba(0,0,0,0.75);
     padding: 2rem;
     color:white;
@@ -28,30 +40,4 @@
 
 .aboutoverlay h1{
     font-size:2rem;
-    margin-bottom:2rem;
-}
-.aboutoverlay p{
-    font-size: 1rem;
-    line-height:1.8;
-    margin-bottom:1.5rem;
-}
-
-@media (min-width:768px) {
-    .aboutoverlay{
-        padding:3rem;
-    }
-    .aboutoverlay h1{
-        font-size:3rem;
-    }
-    .aboutoverlay p{
-        font-size:1.5rem;
-    }
-}
-@media(min-width:1024px){
-    .aboutoverlay{
-        width:65%;
-    }
-    .aboutoverlay p{
-        font-size:1.3rem;
-    }
 }
