@@ -62,36 +62,35 @@ Researched to find this for font size and make it fluid */
 @media(min-width: 768px){
     .projectcard{
         flex-direction:row;
-        align-items:flex-start;
+        alignt-items:flex-start;
         padding:2rem;
         gap:2rem;
     }
-    .projectcard img{
-        width:45%;
-        max-height:none;
-    }
-    .projectinfo{
-        width:55%;
-    }
     .projectinfo h1{
+        font-size:2.5rem;
         color:black;
     }
     .projectinfo p{
+        font-size:1.2rem;
         color:black;
     }
     .projectinfo h2{
-        color:black;
-    }
-    .projectinfo ul{
+        font-size:1.75rem;
         color:black;
     }
 }
 
 @media (min-width:1024px) {
     .projectcard{
-      padding:3rem;
-        gap:3rem; 
+        flex-direction: row;
+        align-items:flex-start;
     }
+
+    .projectinfo h1{
+        font-size:3rem;
+        color:black;
+    }
+
     .projectcard img{
         width:50%;
     }

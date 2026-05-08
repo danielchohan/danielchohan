@@ -82,9 +82,6 @@ Researched to find this for font size and make it fluid */
     .projectinfo h2{
         color:black;
     }
-    .projectinfo ul{
-        color:black;
-    }
 }
 
 @media (min-width:1024px) {
