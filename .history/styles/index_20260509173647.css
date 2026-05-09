@@ -1,6 +1,4 @@
-/* The (x)overlays all over the css are what forms the dark transparent background behind the text. 
-I used the same for all classes
-*/
+
 .overlay{
     background:rgba(0,0,0,0.7);
     padding:1.5rem;

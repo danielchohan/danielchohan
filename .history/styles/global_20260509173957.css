@@ -26,8 +26,6 @@ body{
 }   
 
 /* Nav Bar and menu were ideas stemmed from my friend Jaden, who I brainstormed with on how to implement a responsive nav bar.
-It was also his idea place the nav links, logo, burger in globals.
-I thought it made sense since they are used on all pages and it would be redundant and silly to put them in each css file.
 */
 .logo{
     font-size: 1.5rem;

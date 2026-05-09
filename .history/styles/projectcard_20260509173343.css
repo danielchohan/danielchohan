@@ -22,7 +22,7 @@
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
-Researched to find this for font size and make it fluid as before it would scale very strangely on mobile*/
+Researched to find this for font size and make it fluid */
 .projectinfo h1{
     font-size:clamp(1.8rem, 4vw, 3rem);
     color:white;

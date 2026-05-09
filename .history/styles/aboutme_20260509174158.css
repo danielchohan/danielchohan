@@ -1,7 +1,4 @@
 
-/* Sets the overlay directly where I want it, otherwise it was stuck to the left of the page.
-
-*/
 .aboutcontainer{
     min-height:100vh;
     display:flex;

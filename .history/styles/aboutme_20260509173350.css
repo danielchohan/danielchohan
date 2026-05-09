@@ -1,7 +1,4 @@
 
-/* Sets the overlay directly where I want it, otherwise it was stuck to the left of the page.
-
-*/
 .aboutcontainer{
     min-height:100vh;
     display:flex;
@@ -17,9 +14,6 @@
     align-items:flex-start;
 }
 
-/* The (x)overlays all over the css are what forms the dark transparent background behind the text. 
-I used the same for all classes
-*/
 .aboutoverlay{
     width:100%;
     max-width:70rem;
@@ -30,6 +24,7 @@ I used the same for all classes
     flex-direction:column;
     gap:1rem;
 }
+
 
 .aboutoverlay h1{
     font-size:2rem;

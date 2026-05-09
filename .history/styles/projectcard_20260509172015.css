@@ -22,7 +22,7 @@
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
-Researched to find this for font size and make it fluid as before it would scale very strangely on mobile*/
+Researched to find this for font size and make it fluid */
 .projectinfo h1{
     font-size:clamp(1.8rem, 4vw, 3rem);
     color:white;
@@ -97,5 +97,32 @@ Researched to find this for font size and make it fluid as before it would scale
     }
     .projectinfo{
         width:50%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (hover: none) and (pointer: coarse) {
+ .projectcard{
+        flex-direction:row;
+        align-items:flex-start;
+        padding:2rem;
+        gap:2rem;
+    }
+    .projectcard img{
+        width:45%;
+        max-height:none;
+    }
+    .projectinfo{
+        width:55%;
+    }
+    .projectinfo h1{
+        color:black;
+    }
+    .projectinfo p{
+        color:black;
+    }
+    .projectinfo h2{
+        color:black;
+    }
+    .projectinfo ul{
+        color:black;
     }
 }
