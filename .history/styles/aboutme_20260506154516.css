@@ -1,0 +1,20 @@
+.aboutpage{
+    align-items:flex-start;
+}
+
+.aboutoverlay{
+    width:100%;
+    min-height:100vh;
+    background:rgba(0,0,0,0.75);
+    padding: 2rem;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+
+}
+
+
+.aboutoverlay h1{
+    font-size:2rem;
+}
