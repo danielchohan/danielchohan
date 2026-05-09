@@ -1,0 +1,97 @@
+@font-face {
+    font-family: EldenFont;
+    src: url(../assets/fonts/Mantinia\ Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:EldenFont, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagebg{
+    min-height: 100vh;
+    width:100%;
+
+   background: url(../assets/images/Liurnia.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+}   
+
+/* Nav Bar */
+.logo{
+    font-size: 1.5rem;
+    display:flex;
+    
+}
+.topbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:  1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(4px);
+    color:white;
+    z-index: 10;
+}
+/* Mobile option first */
+.navlinks{
+    display:none;
+}
+.navlinks.active{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    list-style: none;
+    top:100%;
+    right:0;
+    width:100%;
+    background:rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.navlinks a{
+    color: white;
+    font-size: 1.75rem;
+}
+
+.burgerbar{
+    display:flex;
+    flex-direction: column;
+    gap:0.35rem;
+    cursor:pointer;
+}
+.burgerbar span{
+    width:1.7rem;
+    height:0.2rem;
+    background:white;
+    border-radius: 2rem;;
+}
+@media (min-width:768px) {
+    .burgerbar{
+        display:none;
+    }
+    .navlinks{
+        display:flex;
+        list-style: none;
+        gap:3rem;
+    }
+}
+@media(min-width:1024px){
+    .navlinks{
+        gap:4rem;
+    }
+    .logo{
+        font-size:1.8rem;
+    }
+}

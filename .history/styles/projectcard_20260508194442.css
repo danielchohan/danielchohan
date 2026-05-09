@@ -1,0 +1,101 @@
+
+.projectcard{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+    padding:1.5rem;
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.projectcard img{
+    width:100%;
+    border-radius:1rem;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.projectinfo{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
+Researched to find this for font size and make it fluid */
+.projectinfo h1{
+    font-size:clamp(1.8rem, 4vw, 3rem);
+    color:white;
+}
+
+.projectinfo p{
+    line-height:1.8;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color:white;
+}
+.projectinfo h2{
+    font-size:clamp(1.3 rem, 3vw, 1.75rem);
+    color:white;
+}
+
+.projectinfo ul{
+    padding-left: 1.5rem;
+    color:white;
+    font-size:clamp(1rem, 2vw, 1.2rem);
+}
+
+.projectbutton{
+    display:flex;
+    gap:1rem;
+    flex-wrap:wrap;
+}
+
+.projectbutton a{
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    border:none;
+    border-radius:0.4rem;
+    background:white;
+    color:black;
+}
+
+@media(min-width: 768px){
+    .projectcard{
+        flex-direction:row;
+        align-items:flex-start;
+        padding:2rem;
+        gap:2rem;
+    }
+    .projectcard img{
+        width:45%;
+        max-height:none;
+    }
+    .projectinfo{
+        width:55%;
+    }
+    .projectinfo h1{
+        color:black;
+    }
+    .projectinfo p{
+        color:black;
+    }
+    .projectinfo h2{
+        color:black;
+    }
+    .projectinfo ul{
+        color:black;
+    }
+}
+
+@media (min-width:1024px) {
+    .projectcard{
+      padding:3rem;
+        gap:3rem; 
+    }
+    .projectcard img{
+        width:50%;
+    }
+    .projectinfo{
+        width:50%;
+    }
+}
