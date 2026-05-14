@@ -1,6 +1,17 @@
 /* The (x)overlays all over the css are what forms the dark transparent background behind the text. 
 I used the same for all classes
 */
+.indexcontainer{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 8rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+}
+
 .overlay{
     background:rgba(0,0,0,0.7);
     padding:1.5rem;

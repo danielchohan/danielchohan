@@ -1,6 +1,17 @@
 /* Most if not all of the sidebar stuff was taken from and modified to fit the page from Lab6 and then I added some of Hayden's animations for the hover effect.
 */
-
+div{
+    display:flex;
+    flex-direction: column;
+     min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+}
 .projectslayout{
   display:flex;
   flex-direction:column;
